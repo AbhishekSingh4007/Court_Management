@@ -1,0 +1,38 @@
+/* Apply styles to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Apply styles to buttons */
+.buttonsuccess, .buttondecline {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonsuccess {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttondecline {
+    background-color: #f44336;
+    color: white;
+}
+
+.buttonsuccess:hover, .buttondecline:hover {
+    opacity: 0.8;
+}

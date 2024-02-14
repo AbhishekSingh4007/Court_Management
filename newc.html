@@ -1,0 +1,75 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>New Case Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h1>New Case Registration</h1>
+        <form>
+    
+    <br>
+    <br>  <form id="caseRegistrationForm">
+        <h2>Personal Information:</h2><br>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label>Gender:</label>
+        <p>
+            <br />
+            <input type="radio" name=" gender " value="male"  /> Male
+            <input type="radio" name=" gender " value="female"  /> female
+            <input type="radio" name=" gender " value="other" />  other
+        </p>
+        <br>
+    </form>
+    <form>
+        <h2>Contact Information:</h2>
+        <br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+
+        <h2>Case Details:</h2>
+        <label for="caseType">Case Type:</label>
+        <select id="caseType" name="caseType" required>
+            <option value="Type 1">legal</option>
+            <option value="Type 2">criminal</option>
+            <option value="Type 3">other</option>
+        </select><br>
+
+        <label for="caseDescription">Case Description:</label><br>
+        <textarea id="caseDescription" name="caseDescription" rows="6" required></textarea><br>
+
+        <h2>Attachments (if applicable):</h2>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.getElementById("caseRegistrationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            // You can add JavaScript code here to handle form submission, such as sending data to a server.
+            // Example: You can use the Fetch API or XMLHttpRequest to send the form data to a server for processing.
+        });
+    </script>
+
+</div>
+</body>
+</html>

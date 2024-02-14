@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  nav {
+    width: 100%;
+    height: 10vh;
+    background-color: gray;
+    color: rgb(16, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  nav .menu a:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+  
+  }
+  
+  main {
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://i0.wp.com/velivada.com/wp-content/uploads/2017/04/justice-in-india-e1491021729769.jpg?fit=1000%2C500&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(249, 238, 238);
+  }
+  
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 800;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section h3 {
+    margin: 30px 0 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .ch {
+    background: rgb(31, 93, 186);
+    color: white;
+  }
+  
+  .ch:hover {
+    color: black
+  }
+  
+  
+  section .su {
+    background: rgb(31, 93, 186);
+    color: rgb(243, 243, 243);
+  }
+  
+  .su:hover {
+    color: black;
+  }
+  
+  footer {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(96, 92, 92);
+    color: rgb(16, 10, 10);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+  }

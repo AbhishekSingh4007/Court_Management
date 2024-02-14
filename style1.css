@@ -1,0 +1,86 @@
+body {
+    background-image: url('download.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: rgba(106, 106, 124, 0.167);
+    border-radius: 3px;
+}
+
+.log {
+    width: 360px;
+    height: 270px;
+    margin: auto;
+    background-color: rgba(106, 106, 124, 0.167);
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgb(252, 0, 0);
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(0, 182, 248, 0.922);
+}
+
+input[type="reset"] {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    border: none;
+    background-color:  rgba(0, 182, 248, 0.922);;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.acc {
+    text-align: center;
+    color: rgb(245, 235, 235);
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.acc a {
+    color: rgb(25, 0, 255);
+}
